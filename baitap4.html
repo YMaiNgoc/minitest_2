@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="baitap4.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">Order Product</h1>
+        <form action="" id="frm">
+            <p><label>Image product:
+                    <input type="text" id="img" name="img">
+                </label>
+            </p>
+            <p><label>Product Name:
+                    <input type="text" id="pname" name="pname">
+                </label>
+            </p>
+            <p><label>New price:
+                    <input type="text" id="new_up" name="new_up">
+                </label>
+            </p>
+            <p><label>Old Price:
+                    <input type="text" id="old_up" name="old_up">
+                </label>
+            </p>
+            <p><label for="type">Choose a type:</label>
+                <select name="type" id="type">
+                    <option value="man">Man</option>
+                    <option value="women">Women</option>
+                </select>
+            </p>
+            <p><label>Code:
+                    <input type="text" id="code" name="code">
+                </label>
+            </p>
+            <div id="button">
+                <button type="button" style="background-color: #a93b13; color: white;"
+                    onclick="addFunction()">Add</button>
+            </div>
+            <div id="content"></div>
+        </form>
+    </div>
+    </div>
+    <script src="batap4.js"></script>
+</body>
+
+</html>
